@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>to do app</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="to-do-list">
+			<div class="to-do-list__forms-box">
+				<form action="" class="to-do-list__form">
+					<label>Dodaj zadanie</label>
+					<input type="text" class="to-do-list__add-task" />
+					<button class="to-do-list__add-task-button">Dodaj</button>
+				</form>
+				<form action="" class="to-do-list__form">
+					<label>Szukaj zadania</label>
+					<input type="text" class="to-do-list__search-task" />
+					<button class="to-do-list__search-task-button">Usuń</button>
+				</form>
+			</div>
+			<div class="to-do-list__tasks-box">
+				<h3>Lista zadań</h3>
+				<div class="to-do-list__tasks-info">
+					<p>
+						Ilość zadań:
+						<span class="to-do-list__tasks-number">0</span>
+					</p>
+					<p>
+						Ukończono:
+						<span class="to-do-list__tasks-completed">0</span>
+					</p>
+				</div>
+
+				<ul class="to-do-list__tasks-list"></ul>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
